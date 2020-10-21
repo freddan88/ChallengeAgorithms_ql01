@@ -1,0 +1,23 @@
+{
+  "name": "qlab_agorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddan88/qlab_agorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freddan88/qlab_agorithms/issues"
+  },
+  "homepage": "https://github.com/freddan88/qlab_agorithms#readme",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
