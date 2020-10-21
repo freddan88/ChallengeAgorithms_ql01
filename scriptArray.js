@@ -28,8 +28,7 @@ rl.on("line", (line) => {
   let array = line.replace(/([\[\]\/\\\s])/g, "").split(",");
   array = array.map((item) => parseInt(item));
   const qlres = maximumSum(array);
-  console.log("");
   console.log(`_Input: ${line}`);
   console.log(`Output: ${qlres}`);
-  console.log("");
+  console.log("-------");
 });

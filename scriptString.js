@@ -17,8 +17,7 @@ const removeIdenticalInstances = (string) => {
 
 rl.on("line", (line) => {
   const qlres = removeIdenticalInstances(line);
-  console.log("");
   console.log(`_Input: ${line}`);
   console.log(`Output: ${qlres}`);
-  console.log("");
+  console.log("-------");
 });
