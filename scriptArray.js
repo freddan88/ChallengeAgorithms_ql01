@@ -13,7 +13,7 @@ const maximumSum = (array) => {
     if (string.length > 1) {
       let digits = string.split("");
       digits = digits.map((digit) => parseInt(digit));
-      const number = digits.reduce((total, digit) => total + digit);
+      const number = digits.reduce(reduceFunction);
       const obj = {
         index,
         number,
