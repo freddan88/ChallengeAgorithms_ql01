@@ -7,13 +7,13 @@ To use this project you will need to either download it as a .zip or clone it to
 ### 1. clone to desktop
 
 ```
-git clone https://github.com/freddan88/qlab_agorithms.git
+git clone https://github.com/freddan88/ChallengeAgorithms_ql01.git
 ```
 
 ### 2. install dependencies
 
 ```
-cd qlab_agorithms && npm install
+cd ChallengeAgorithms_ql01 && npm install
 ```
 
 ## Run scripts in node.js
