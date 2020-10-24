@@ -24,7 +24,14 @@ const maximumSum = (array) => {
   return resultingNumbers.reduce(reduceFunction);
 };
 
+const exitWithError = () => {
+  console.log("Please provide an array of integers Ex: [61, 32, 51]");
+  console.log("");
+  process.exit(1);
+};
+
 rl.on("line", (line) => {
+  if (line.length === 0) exitWithError();
   let array = line.replace(/([\[\]\/\\\s])/g, "").split(",");
   array = array.map((item) => parseInt(item));
   const qlres = maximumSum(array);

@@ -15,7 +15,13 @@ const removeIdenticalInstances = (string) => {
   return string;
 };
 
+const exitWithError = () => {
+  console.log("Please provide a string Ex: ffdttttyy");
+  process.exit(1);
+};
+
 rl.on("line", (line) => {
+  if (line.length === 0) exitWithError();
   const qlres = removeIdenticalInstances(line);
   console.log(`_Input: ${line}`);
   console.log(`Output: ${qlres}`);
